@@ -122,7 +122,7 @@ console.log()
                       <group name="Body005" position={[0.321, 0.465, -1.837]}>
                         <mesh name="blades" geometry={nodes.blades.geometry} material={materials['Material.004']} />
                         <mesh geometry={nodes.Body.geometry}>
-                          <meshStandardMaterial {...materials.BaseMtl} color={overlay == 1 || overlay == 13 ? (snap1.base.BaseMtl !== "none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+                          <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl !== "none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
                             <canvasTexture
                               flipY={false}
                               wrapS={1000}
